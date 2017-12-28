@@ -1,2 +1,15 @@
-Halo Depth Camera (H1) SDK
+Depth Eye Camera (H1) SDK
+How to run:
+1.prerequisite
+copy ./udev/rules.d/72-DepthEyeH1CDK.rules to your system(ubuntu) "/ect/udev/rules.d" directory
+change permission(this may need sudo command)
+chmod a+x /ect/udev/rules.d/72-DepthEyeH1CDK.rules
+2.run configuration
+modified ./bin/run_sample.sh, change "VOXEL_SDK_PATH=(path to this sdk directory)" to this sdk top directory
+for example: 
+if you download this repo files and placed in 
+"~/Documents/DepthCamera/depth-eye-sdk-ubuntu"
+then 
+VOXEL_SDK_PATH=~/Documents/DepthCamera/depth-eye-sdk-ubuntu
 
+If you have any issues while using this sdk, please create issues at github and we will solved it soon...

@@ -12,4 +12,22 @@ if you download this repo files and placed in
 then 
 VOXEL_SDK_PATH=~/Documents/DepthCamera/depth-eye-sdk-ubuntu
 
+How to build
+1.prerequisite
+you need to have CMake install in your ubuntu, both command line and GUI version can do this job.
+2.buid procedure
+Create a build directory at a place you prefer
+Change directory to build directory
+	
+	Comand-Line version
+	$test@pc: cmake (directory of sdk which contain CMakeLists.txt)
+	$test@pc: make 
+	
+	GUI version
+	Select the source directory to sdk 
+	Select the build directory to elsewhere
+	Configure & Generate
+	In your terminal, change to build directory, then make
+
+
 If you have any issues while using this sdk, please create issues at github and we will solved it soon...
